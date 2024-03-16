@@ -5,6 +5,12 @@
       <entry key="app">
         <State />
       </entry>
+      <entry key="viewPreview">
+        <State />
+      </entry>
+      <entry key="viewPreview (1)">
+        <State />
+      </entry>
     </value>
   </component>
 </project>
