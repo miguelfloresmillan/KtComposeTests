@@ -10,12 +10,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.mgl.ktcomposetests.app.LibraryApp
 import com.mgl.ktcomposetests.ui.theme.KtComposeTestsTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
+        /*setContent {
             KtComposeTestsTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
@@ -25,6 +26,9 @@ class MainActivity : ComponentActivity() {
                     Greeting("Android cis")
                 }
             }
+        }*/
+        setContent {
+            LibraryApp()
         }
     }
 }
@@ -41,6 +45,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     KtComposeTestsTheme {
-        Greeting("Android dos d h")
+        Greeting("Android dos d h2")
     }
 }
